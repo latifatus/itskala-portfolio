@@ -265,7 +265,7 @@ class="fixed inset-0 bg-black z-[9999] flex flex-col items-center justify-center
     
 
     <!-- Hero Section -->
-    <section id="home" class="hidden-section show h-screen flex flex-col justify-center items-center text-center px-5 relative z-10">
+    <section id="home" class="hidden-section show min-h-screen flex flex-col justify-center items-center text-center px-5 py-24 relative z-10">
         <h2 class="text-yellow-400 text-lg mb-3 animate-pulse">
             Hello, I'm
         </h2>
@@ -1206,7 +1206,7 @@ class="fixed inset-0 bg-black z-[9999] flex flex-col items-center justify-center
 
     </section>
 
-     <!-- Contact Section -->
+    <!-- Contact Section -->
     <section id="contact" class="hidden-section min-h-screen px-6 md:px-10 py-20 md:py-24 relative z-10">
 
     <div class="max-w-7xl mx-auto">
@@ -1225,169 +1225,164 @@ class="fixed inset-0 bg-black z-[9999] flex flex-col items-center justify-center
 
         </div>
 
-        <!-- Two Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto">
 
-            <!-- LEFT CARD -->
-            <div class="bg-[#111111] border border-gray-800 rounded-3xl p-6 
-                        hover:border-yellow-400 
-                        hover:-translate-y-2
-                        hover:shadow-[0_0_30px_rgba(250,204,21,0.15)]
-                        transition-all duration-500">
+            <!-- Contact Cards -->
+    <a href="https://www.instagram.com/latif.az_?igsh=emtxdzdoZzRpZjRx"
+    target="_blank"
+    class="group bg-black/30 backdrop-blur-md border border-yellow-500/10 rounded-2xl p-5 hover:border-yellow-400 hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(250,204,21,0.15)] transition-all duration-500">
 
-                <div class="space-y-8">
+        <h3 class="text-yellow-400 font-semibold text-lg mb-2">
+            Instagram
+        </h3>
 
-                    <!-- Name -->
-                    <div>
-                        <h3 class="text-yellow-400 text-lg font-semibold mb-2">
-                            Name
-                        </h3>
+        <p class="text-gray-300">
+            @latif.az_
+        </p>
 
-                        <p class="text-gray-300">
-                            Kala
-                        </p>
-                    </div>
+        <span class="absolute bottom-5 right-5
+             text-yellow-400 text-xl
+             opacity-0 translate-x-2
+             group-hover:opacity-100
+             group-hover:translate-x-0
+             transition-all duration-300">
+        →
+        </span>
+ 
+    </a>
 
-                    <!-- Instagram -->
-                    <div>
-                        <h3 class="text-yellow-400 text-lg font-semibold mb-2">
-                            Instagram
-                        </h3>
+    <a href="https://wa.me/6281232647601?text=Hi%20Kala,%0AI%20just%20visited%20your%20portfolio%20and%20really%20enjoyed%20exploring%20your%20projects.%20I'd%20love%20to%20connect%20and%20learn%20more%20about%20your%20work."
+    target="_blank"
+    class="group bg-black/30 backdrop-blur-md border border-yellow-500/10 rounded-2xl p-5 hover:border-yellow-400 hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(250,204,21,0.15)] transition-all duration-500">
 
-                        <a href="https://www.instagram.com/latif.az_?igsh=emtxdzdoZzRpZjRx"
-                        target="_blank"
-                        class="text-gray-300 hover:text-yellow-400 transition">
+        <h3 class="text-yellow-400 font-semibold text-lg mb-2">
+            WhatsApp
+        </h3>
 
-                            @latif.az_
+        <p class="text-gray-300">
+            Chat via WhatsApp
+        </p>
 
-                        </a>
-                    </div>
+        <span class="absolute bottom-5 right-5
+             text-yellow-400 text-xl
+             opacity-0 translate-x-2
+             group-hover:opacity-100
+             group-hover:translate-x-0
+             transition-all duration-300">
+        →
+        </span>
 
-                    <!-- Email -->
-                    <div>
-                        <h3 class="text-yellow-400 text-lg font-semibold mb-2">
-                            Email
-                        </h3>
+    </a>
 
-                        <a href="mailto:latifatusaza@gmail.com"
-                        class="text-gray-300 hover:text-yellow-400 transition">
+    <a href="mailto:latifatusaza@gmail.com"
+    class="group bg-black/30 backdrop-blur-md border border-yellow-500/10 rounded-2xl p-5 hover:border-yellow-400 hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(250,204,21,0.15)] transition-all duration-500">
 
-                            latifatusaza@gmail.com
+        <h3 class="text-yellow-400 font-semibold text-lg mb-2">
+            Email
+        </h3>
 
-                        </a>
-                    </div>
+        <p class="text-gray-300 truncate">
+            latifatusaza@gmail.com
+        </p>
 
-                    <!-- WhatsApp -->
-                    <div>
-                        <h3 class="text-yellow-400 text-lg font-semibold mb-2">
-                            WhatsApp
-                        </h3>
+        <span class="absolute bottom-5 right-5
+             text-yellow-400 text-xl
+             opacity-0 translate-x-2
+             group-hover:opacity-100
+             group-hover:translate-x-0
+             transition-all duration-300">
+        →
+        </span>
 
-                        <a href="https://wa.me/6281232647601?text=Hi%20Kala,%20I%20just%20visited%20your%20portfolio%20and%20really%20liked%20your%20work.%20I'd%20love%20to%20connect%20with%20you..."
-                        target="_blank"
-                        class="text-gray-300 hover:text-yellow-400 transition">
+    </a>
 
-                            Chat via WhatsApp
+    <a href="https://github.com/latifatus"
+    target="_blank"
+    class="group bg-black/30 backdrop-blur-md border border-yellow-500/10 rounded-2xl p-5 hover:border-yellow-400 hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(250,204,21,0.15)] transition-all duration-500">
 
-                        </a>
-                    </div>
+        <h3 class="text-yellow-400 font-semibold text-lg mb-2">
+            GitHub
+        </h3>
 
-                    <!-- GitHub -->
-                    <div>
-                        <h3 class="text-yellow-400 text-lg font-semibold mb-2">
-                            GitHub
-                        </h3>
+        <p class="text-gray-300 truncate">
+            github.com/latifatus
+        </p>
 
-                        <a href="https://github.com/latifatus"
-                        target="_blank"
-                        class="text-gray-300 hover:text-yellow-400 transition">
+        <span class="absolute bottom-5 right-5
+             text-yellow-400 text-xl
+             opacity-0 translate-x-2
+             group-hover:opacity-100
+             group-hover:translate-x-0
+             transition-all duration-300">
+            →
+        </span>
+    </a>
 
-                            github.com/latifatus
+    </div>
 
-                        </a>
-                    </div>
+    <!-- Send Message -->
+    <div class="max-w-5xl mx-auto mt-14 flex justify-center">
 
-                    <!-- Location -->
-                    <div>
-                        <h3 class="text-yellow-400 text-lg font-semibold mb-2">
-                            Location
-                        </h3>
+        <div class="w-full bg-black/30 backdrop-blur-md border 
+        border-gray-800 rounded-3xl p-8
+        hover:border-yellow-400/30 transition-all duration-500">
 
-                        <p class="text-gray-300">
-                            Indonesia
-                        </p>
-                    </div>
+            <h3 class="text-3xl font-bold text-yellow-400 mb-3">
+                Send Message
+            </h3>
 
+            <p class="text-gray-400 mb-8">
+                Mari terhubung. Siapa tahu, dari satu pesan sederhana lahir sesuatu yang luar biasa.
+            </p>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+
+                <input type="hidden" name="access_key" value="dba950f2-de6e-4513-be29-c09bc296f830">
+
+                <input type="hidden" name="subject" value="New Inquiry from ItsKala Portfolio">
+
+                <div>
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Nama Anda"
+                        required
+                        class="w-full bg-black/40 border border-gray-700 rounded-2xl px-5 py-4 text-white focus:border-yellow-400 outline-none transition">
                 </div>
 
-            </div>
-
- <!-- RIGHT CARD -->
-           <div class="bg-[#111111] border border-gray-800 rounded-3xl p-6 
-                        hover:border-yellow-400 
-                        hover:-translate-y-2
-                        hover:shadow-[0_0_30px_rgba(250,204,21,0.15)]
-                        transition-all duration-500">
-
-                <h3 class="text-3xl font-semibold text-white mb-8">
-                    Send Message 
-                </h3>
-
-                <!-- FORM -->
-                <form action="https://formsubmit.co/latifatusaza@gmail.com" method="POST" class="space-y-6">
-
-                    <!-- Hidden -->
-                    <input type="hidden" name="_captcha" value="false">
-
-                    <input type="hidden" name="_template" value="table">
-
-                    <input type="hidden" name="_subject" value="Portfolio Inquiry | Kala Portfolio">
-
-                    <input type="hidden" name="_next" value="http://127.0.0.1:8000/#contact">
-
-                    <!-- Name -->
-                    <div>
-                        <input type="text"
-                        name="name"
-                        placeholder="Your Name"
-                        required
-                        class="w-full bg-[#0b0b0b] border border-gray-700 rounded-2xl px-5 py-4 text-white focus:border-yellow-400 outline-none transition">
-                    </div>
-
-                    <!-- Email -->
-                    <div>
-                        <input type="email"
+                <div>
+                    <input
+                        type="email"
                         name="email"
-                        placeholder="Your Email"
+                        placeholder="email@anda.com"
                         required
-                        class="w-full bg-[#0b0b0b] border border-gray-700 rounded-2xl px-5 py-4 text-white focus:border-yellow-400 outline-none transition">
-                    </div>
+                        class="w-full bg-black/40 border border-gray-700 rounded-2xl px-5 py-4 text-white focus:border-yellow-400 outline-none transition">
+                </div>
 
-                    <!-- Message -->
-                    <div>
-                        <textarea
+                <div>
+                    <textarea
                         name="message"
                         rows="6"
-                        placeholder="Write your message..."
+                        placeholder="Bagikan ide, cerita, atau pesanmu di sini..."
                         required
-                        class="w-full bg-[#0b0b0b] border border-gray-700 rounded-2xl px-5 py-4 text-white focus:border-yellow-400 outline-none transition resize-none"></textarea>
-                    </div>
+                        class="w-full bg-black/40 border border-gray-700 rounded-2xl px-5 py-4 text-white focus:border-yellow-400 outline-none transition resize-none"></textarea>
+                </div>
 
-                    <!-- Button -->
-                    <button type="submit"
+                <button
+                    type="submit"
                     class="w-full bg-yellow-400 text-black py-4 rounded-2xl font-semibold hover:scale-[1.02] transition duration-300">
 
-                        Send Message
+                    Send Message
 
-                    </button>
+                </button>
 
-                </form>
-
-            </div>
+            </form>
 
         </div>
 
     </div>
+
+
 
 
     </section>

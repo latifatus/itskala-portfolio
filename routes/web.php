@@ -63,3 +63,5 @@ Route::get('/certificates/training', function () {
 Route::get('/projects/cloud-web-security', function () {
     return view('projects.cloud-web-security');
 });
+
+Route::view('/contact-success', 'contact-success');

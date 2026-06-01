@@ -400,7 +400,7 @@
                     transition duration-500 hover:-translate-y-2">
 
             <div class="overflow-hidden">
-                <img src="{{ asset('images/certificates/writing/Penulis Terpilih.jpeg') }}"
+                <img src="{{ asset('images/certificates/writing/Penulis.jpeg') }}"
                     alt="Writing Certificate"
                     class="w-full h-72 object-cover
                     group-hover:scale-105 transition duration-500">
@@ -417,7 +417,7 @@
                     competition anthology "CINTA" organized by CV Simpel Publisher.
                 </p>
 
-                <a href="{{ asset('images/certificates/writing/Penulis Terpilih.jpeg') }}"
+                <a href="{{ asset('images/certificates/writing/Penulis.jpeg') }}"
                 target="_blank"
                 class="inline-block px-5 py-2 border border-yellow-400
                 text-yellow-400 rounded-full
