@@ -1335,7 +1335,7 @@ class="fixed inset-0 bg-black z-[9999] flex flex-col items-center justify-center
                 Mari terhubung. Siapa tahu, dari satu pesan sederhana lahir sesuatu yang luar biasa.
             </p>
 
-            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+            <form action="https://formspree.io/f/mykvrlln" method="POST" class="space-y-6">
 
                 <input type="hidden" name="access_key" value="dba950f2-de6e-4513-be29-c09bc296f830">
 
